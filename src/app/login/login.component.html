@@ -1,0 +1,270 @@
+<div class="inline-flex bg-[#f9fafb] space-x-16 items-start justify-center px-10 pt-28 pb-48 w-[100%] h-auto">
+   
+   
+   
+    <div class="inline-flex flex-col space-y-6 items-start justify-start" style="width: 47%; height: 356px;">
+        <div class="inline-flex space-x-2 items-center justify-start py-1 pl-1 pr-4 bg-pink-400 rounded-2xl drop-shadow-md animate__animated animate__fadeIn animate__slower">
+            <div class="flex items-center justify-start px-3 py-0.5 bg-purple-800 rounded-lg">
+                <p class="text-xs font-medium tracking-wide leading-tight text-white uppercase">100%</p>
+            </div>
+            <p class="text-sm leading-tight text-white ">Quality assured</p>
+        </div>
+        <div class="flex flex-col space-y-10 items-start justify-start" style="width: 100%; height: 300px;">
+            <p class="text-6xl font-extrabold leading-[60px] text-purple-800 drop-shadow-lg wow animate__animated animate__fadeInDown" style="width:100%;">Find cakes for your loved ones</p>
+            <p class="text-lg leading-7 text-gray-900 drop-shadow-md wow animate__animated animate__fadeInUp" style="width: 100%;">We're broadening the boundaries of e-retailing cakes, flowers, gifts, and more, as well as making web browsing much more convenient for our customers. We present you an exclusive choice of delicacies as well as dependable doorstep delivery services, so you won't have to worry about your order once it's placed.</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div *ngIf="this.option == '0'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 278px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 208px;">
+            <div class="flex flex-col items-start justify-start" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Sign In/ Sign Up</p>
+            </div>
+            <div class="inline-flex items-center justify-start bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                <div class="flex space-x-1 items-center justify-start py-2 pl-5 pr-3 bg-white shadow rounded-md">
+                    <p class="text-sm leading-tight text-gray-500">+91 <fa-icon [icon]="faChevronDown"></fa-icon></p>
+                </div>
+                <div class="flex items-center justify-start flex-1 py-3 pr-4">
+                    <input type="text" placeholder="Enter mobile number" class="pl-7 text-sm h-[90%] text-gray-500 border-0 outline-none w-[100%]">
+                </div>
+            </div>
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-purple-800 shadow rounded-md" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Submit</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div *ngIf="this.option == '1'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 412px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 342px;">
+            <div class="inline-flex items-start justify-start" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Sign In</p>
+            </div>
+            <div class="inline-flex items-center justify-start bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                <div class="flex space-x-1 items-center justify-start py-2 pl-5 pr-3 bg-white shadow rounded-md">
+                    <p class="text-sm leading-tight text-gray-500">+91 <fa-icon [icon]="faChevronDown"></fa-icon></p>
+                </div>
+                <div class="flex items-center justify-start flex-1 py-3 pr-4">
+                    <input type="text" placeholder="7989489205" class="pl-7 text-sm h-[90%] text-gray-500 border-0 outline-none w-[100%]">
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2 items-start justify-start" style="width: 410px; height: 66px;">
+                <div class="inline-flex space-x-2 items-center justify-between px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                    <p class="text-sm leading-tight text-gray-500">Password</p>
+                    <fa-icon [icon]="faEye" class="text-gray-400"></fa-icon>
+                </div>
+                <div class="inline-flex items-start justify-start" style="width: 410px; height: 20px;">
+                    <p class="text-sm font-medium leading-tight text-right text-pink-400">Sign in with OTP</p>
+                </div>
+            </div>
+            <p class="text-sm font-medium leading-tight text-right text-gray-900" style="width: 410px;">Forgot Password?</p>
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-purple-800 shadow rounded-md" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Sign In</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div *ngIf="this.option == '2'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 412px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 342px;">
+            <div class="inline-flex items-start justify-start" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Sign In</p>
+            </div>
+            <div class="inline-flex items-center justify-start bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                <div class="flex space-x-1 items-center justify-start py-2 pl-5 pr-3 bg-white shadow rounded-md">
+                    <p class="text-sm leading-tight text-gray-500">+91 <fa-icon [icon]="faChevronDown"></fa-icon></p>
+                </div>
+                <div class="flex items-center justify-start flex-1 py-3 pr-4">
+                    <input type="text" placeholder="7989489205" class="pl-7 text-sm h-[90%] text-gray-500 border-0 outline-none w-[100%]">
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2 items-start justify-start" style="width: 410px; height: 66px;">
+                <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Enter OTP" />
+                <div class="inline-flex space-x-2.5 items-start justify-between" style="width: 410px; height: 20px;">
+                    <p class="text-sm font-medium leading-5 text-right text-pink-400">Sign in with password</p>
+                    <p class="text-sm font-medium leading-5 text-right text-pink-400">Re-send OTP</p>
+                </div>
+            </div>
+            <div class="inline-flex items-start justify-end" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-right text-gray-900">Forgot Password?</p>
+            </div>
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-purple-800 shadow rounded-md" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Sign In</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+    <div *ngIf="this.option == '3'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 384px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 314px;">
+            <div class="inline-flex space-x-1 items-start justify-between" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Sign Up</p>
+                <p class="text-sm font-medium leading-tight text-pink-400">or Sign In</p>
+            </div>
+            <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Full name"/>
+            <div class="inline-flex space-x-6 items-start justify-start">
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Male</p>
+                </div>
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Female</p>
+                </div>
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Others</p>
+                </div>
+            </div>
+            <div class="inline-flex items-center justify-start bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                <div class="flex space-x-1 items-center justify-start py-2 pl-5 pr-3 bg-white shadow rounded-md">
+                    <p class="text-sm leading-tight text-gray-500">+91 <fa-icon [icon]="faChevronDown"></fa-icon></p>
+                </div>
+                <div class="flex items-center justify-start flex-1 py-3 pr-4">
+                    <input type="text" placeholder="7989489205" class="pl-7 text-sm h-[90%] text-gray-500 border-0 outline-none w-[100%]">
+                </div>
+            </div>
+            <div class="inline-flex items-center justify-center px-4 py-2 shadow border rounded-md border-purple-800" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-purple-800">Send OTP</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div *ngIf="this.option == '4'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: auto;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: auto;">
+            <div class="inline-flex space-x-1 items-start justify-between" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Sign Up With</p>
+                <p class="text-sm font-medium leading-tight text-pink-400">or Sign In</p>
+            </div>
+            <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Full name"/>
+            <div class="inline-flex space-x-6 items-start justify-start">
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Male</p>
+                </div>
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Female</p>
+                </div>
+                <div class="flex space-x-2 items-center justify-start">
+                    <input class="appearance-none rounded-full h-5 w-5 border border-gray-300 bg-white checked:bg-purple-600" type="checkbox"/>
+                    <p class="text-sm font-medium leading-tight text-gray-700">Others</p>
+                </div>
+            </div>
+            <div class="inline-flex items-center justify-start bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                <div class="flex space-x-1 items-center justify-start py-2 pl-5 pr-3 bg-white shadow rounded-md">
+                    <p class="text-sm leading-tight text-gray-500">+91 <fa-icon [icon]="faChevronDown"></fa-icon></p>
+                </div>
+                <div class="flex items-center justify-start flex-1 py-3 pr-4">
+                    <input type="text" placeholder="7989489205" class="pl-7 text-sm h-[90%] text-gray-500 border-0 outline-none w-[100%]">
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2 items-start justify-start" style="width: 410px; height: 66px;">
+                <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Enter OTP" />
+                <div class="inline-flex space-x-2.5 items-start justify-between" style="width: 410px; height: 20px;">
+                    <p class="text-sm font-medium leading-5 text-right text-pink-400">Re-send OTP</p>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2 items-start justify-start" style="width: 410px; height: 38px;">
+                <div class="inline-flex space-x-2 items-center justify-between px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;">
+                    <p class="text-sm leading-tight text-gray-500">Password</p>
+                    <fa-icon [icon]="faEye" class="text-gray-400"></fa-icon>
+                </div>
+                <div class="inline-flex items-start justify-start" style="width: 410px; height: 20px;">
+                </div>
+            </div>
+            <div class="inline-flex items-center justify-center px-4 py-2 shadow border rounded-md bg-purple-800" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Send OTP</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div *ngIf="this.option == '5'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 306px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 236px;">
+            <div class="inline-flex space-x-1 items-start justify-between" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Provide OTP sent to your mobile number</p>
+                <p class="text-sm font-medium leading-tight text-pink-400">or Sign In</p>
+            </div>
+            <div class="flex flex-col space-y-2 items-start justify-start" style="width: 410px; height: 66px;">
+                <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Enter OTP"/>
+                <p class="text-sm font-medium leading-tight text-right text-pink-400" style="width: 410px;">Re-send OTP</p>
+            </div>
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-purple-800 shadow rounded-md" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Validate</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div *ngIf="this.option == '6'" class="inline-flex flex-col items-start justify-start bg-white shadow-lg rounded-lg wow animate__animated animate__backInRight" style="width: 490px; height: 402px;">
+        <div class="flex flex-col space-y-6 items-start justify-start px-10 py-8 bg-white" style="width: 490px; height: 332px;">
+            <div class="inline-flex space-x-1 items-start justify-between" style="width: 410px; height: 20px;">
+                <p class="text-sm font-medium leading-tight text-gray-900">Create New Password</p>
+                <p class="text-sm font-medium leading-tight text-pink-400">or Sign In</p>
+            </div>
+            <input class="text-sm leading-tight text-gray-900 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="6346" />
+            <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="New password" />
+            <input class="text-sm leading-tight text-gray-500 px-3 py-2 bg-white shadow border rounded-md border-gray-300" style="width: 410px; height: 38px;" placeholder="Re-enter new password" />
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-purple-800 shadow rounded-md" style="width: 410px; height: 38px;">
+                <p class="text-sm font-medium leading-tight text-white">Change Password</p>
+            </div>
+        </div>
+        <div class="bg-gray-200" style="width: 490px; height: 2px;"></div>
+        <div class="flex flex-col items-start justify-start px-10 py-6 bg-gray-50" style="width: 490px; height: 68px;">
+            <p class="text-xs leading-tight text-gray-500" style="width: 410px;">By signing up, you agree to our <b class="text-gray-800">Terms, Data Policy</b> and <b class="text-gray-800">Cookies Policy</b>.</p>
+        </div>
+    </div>
+
+</div>
